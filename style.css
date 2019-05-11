@@ -1,3 +1,105 @@
+:root{
+    --main-background-color:  #2094f3;
+    --second-background-color: #c1cfda;
+}
+
+body{
+    background: linear-gradient(90deg, var(--main-background-color), #55bff0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*  colors1:
+    #f0edee - white
+    #07393c - dark green
+    #2c666e - myrtle green (blue)
+    #343e3d - onyx
+    colors2:
+    #264e7b - lightblue
+    #a7efdc - mint
+    #e9ffc7 - chiffon
+    #081c66 - darkblue
+    colors3:
+    #c1cfda - gray
+    #20a4f3 - dodger blue
+    #59f8e8 - light blue
+*/
+
+#bar{
+    display: flex;
+    padding: 1%;
+    padding-left: 20px;
+    background-color:  var(--second-background-color);
+    border-radius: 25px;
+}
+#bar div{
+    margin: 0px 8px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    padding-right: 3%;
+    padding-inline-start:64px;
+    margin-inline-start: 0;
+
+    background-color: var(--second-background-color);
+    border-radius: 25px;
+    border: #c1cfda solid 2px ;
+}
+
 li{
-    margin: 10px
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    padding-block-start: 1%;
+    padding-block-end: 1%;
+    background-color: inherit;
+
+    
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+#check{
+    position: absolute; 
+    display: block;
+    left: 32px;
+}
+
+input{
+    color: var(--main-background-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold ;
+    font-size: 22px;
+    border: none;
+    border-bottom: 4px solid var(--main-background-color);
+    flex-basis: 85%;
+    height: 25px;
+    background-color: inherit  ;
+}
+
+#remove{
+    width: 24px;
+    height: 24px;
+    
+}
+#remove img{
+    width: 24px;
+    height: 24px;
+}
+
+img{
+    width: 32px;
+    height: 32px;
 }

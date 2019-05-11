@@ -3,18 +3,28 @@
 <head>
     <title>Shopping List</title>
     <link rel="stylesheet" href="style.css">
+    <!-- icons from: http://www.iconarchive.com/show/must-have-icons-by-visualpharm.html-->
 </head>
 <body>
     <div id="bar">
-        <h1>Shopping List</h1>
-        <button id="add">Add Item</button>
+        <div class="icon" id="add">
+            <img src="assets/Add-icon.png" alt="add">
+        </div>
+        <div class="icon" id="upload">
+            <img src="assets/Upload-icon.png" alt="upload">
+        </div>
     </div>
     
     
     <ul>
-        <li id="1">
+        <li id="0">
+            <div class="icon" id="check">
+                <img src="assets/Uncheck-icon.png" alt="false">
+            </div>
             <input type="text">
-            <button id="remove">remove</button>
+            <div class="icon" id="remove">
+                <img src="assets/Delete-icon.png" alt="delete">
+            </div>
         </li>
     </ul>
     

@@ -60,5 +60,6 @@ typings/
 # next.js build output
 .next
 
-#database from cargodb
-db/
+# garbage files like old, not used icons etc.
+# that I like to keep in my project folder
+useless/
